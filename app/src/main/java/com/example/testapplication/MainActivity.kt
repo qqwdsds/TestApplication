@@ -15,4 +15,6 @@ class MainActivity : AppCompatActivity() {
 
     //second changes
     //asdfasdfklasjdf;aksjd
+
+    //git reset --hard HEAD~1 git reset --hard HEAD^ :)
 }
