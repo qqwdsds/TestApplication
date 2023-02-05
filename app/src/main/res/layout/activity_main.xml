@@ -4,25 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/lightBlue">
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="textView1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+    <ImageView android:id="@+id/image"
+        android:layout_width="290dp"
+        android:layout_height="290dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"/>
 
-    <TextView
-        android:id="@+id/textView2"
+    <EditText
+        android:id="@+id/enterText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="38dp"
+        android:gravity="center"
+        android:hint="choose one: terminal/android/youtube"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@id/isDoneButton" />
+
+    <Button android:id="@+id/isDoneButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="textView2"
-        app:layout_constraintTop_toBottomOf="@id/textView1"
-        app:layout_constraintEnd_toStartOf="@id/textView1"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="100dp"
+        android:text="Done"/>
 
 
 
