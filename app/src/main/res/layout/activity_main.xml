@@ -21,10 +21,12 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="38dp"
         android:gravity="center"
-        android:hint="choose one: terminal/android/youtube"
+        android:hint="@string/choose_one_terminal_android_youtube"
         android:importantForAutofill="no"
         android:minHeight="48dp"
-        app:layout_constraintBottom_toTopOf="@id/isDoneButton" />
+        app:layout_constraintBottom_toTopOf="@id/isDoneButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <Button android:id="@+id/isDoneButton"
         android:layout_width="wrap_content"

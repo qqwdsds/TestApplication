@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TestApplication</string>
+    <string name="choose_one_terminal_android_youtube">choose one: terminal/android/youtube</string>
 </resources>
